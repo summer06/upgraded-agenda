@@ -2,3 +2,10 @@ langyage: go
 
 go:
     - 1.9.1
+
+script:
+  - go build cli/agenda.go
+  
+branches:
+  only:
+    - master
