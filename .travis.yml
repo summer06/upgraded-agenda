@@ -3,6 +3,10 @@ language: go
 go:
 - tip # The latest version of Go.
 
+os:
+  - linux
+  - osx
+
 script:
   - go build cli/agenda.go
   - go build service/agenda-service.go
