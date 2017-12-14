@@ -1,7 +1,7 @@
-langyage: go
+language: go
 
 go:
-    - 1.9.1
+- tip # The latest version of Go.
 
 script:
   - go build cli/agenda.go
